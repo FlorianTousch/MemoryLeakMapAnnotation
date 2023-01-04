@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-@main
+//@main
 struct TestAnnotationApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(items: [Annotation(coordinate: .defaultCoordinate), Annotation()])
         }
     }
 }
